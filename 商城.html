@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+<p align="center"><strong>商城用户注册
+</strong></p>
+<form method="post" enctype="multipart/form-data" name="form1" id="form1">
+<table width="972" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="300" height="30"><div align="right" >用户名：</div></td>
+    <td width="15">&nbsp;</td>
+    <td width="351"><input type="text" name="textfield" id="yhm" required placeholder="可包含 a-z、0-9 和下划线">
+      <span style="color:red;font-size:10px">可包含 a-z、0-9 和下划线</span></td>
+    <td width="306" rowspan="8" align="center">阅读商城服务协议 
+        <textarea name="textarea" cols="40" rows="12" id="textarea">欢迎阅读服务条款协议，本协议阐述之条款和条件适用于您使用商城网站的各种工具和服务。
+
+  本服务协议双方为商城与商城用户，本服务协议具有合同效力。 
+  商城的权利和义务
+    1. 有义务在现有技术上维护整个网上交易平台的正常运行，并努力提升和改进技术，使用户网上交易活动顺利。 
+    2.对用户在注册使用商城网上交易平台中所遇到的与交易或注册有关的问题及反映的情况，商城应及时作出回复。 
+    3.对于在商城网网上交易平台上的不当行为或其它任何商城认为应当终止服务的情况，商城有权随时作出删除相关信息、终止服务提供等处理，而无须征得用户的同意。 
+4.因网上交易平台的特殊性，商城没有义务对所有用户的注册资料、所有的交易行为以及与交易有关的其他事项进行事先审查。
+        </textarea>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <span style="color:red;font-size:10px">我已阅读该协议并同意</span>
+      </td>
+  </tr>
+  <tr>
+    <td height="30"><div align="right" >密码：</div></td>
+    <td>&nbsp;</td>
+    <td><input type="password" name="password" id="mm" required  placeholder="至少包含 6 个字符">
+      <span style="color:red;font-size:10px">至少包含 6 个字符</span></td>
+    </tr>
+  <tr>
+    <td height="30"><div align="right" >确认密码：</div></td>
+    <td>&nbsp;</td>
+    <td><input type="password" name="password2" id="password2" required></td>
+    </tr>
+  <tr>
+    <td height="30"><div align="right">邮箱：</div></td>
+    <td>&nbsp;</td>
+    <td><input type="email" name="email" id="email" list="youxiang" placeholder="至少包含@字符">
+    <datalist id="youxiang">
+    <option value="xx@xx.com">example</option>
+    </datalist>
+    <span style="color:red;font-size:10px">必须包含 @ 字符</span></td>
+    </tr>
+  <tr>
+    <td height="30"><div align="right">性别：</div></td>
+    <td>&nbsp;</td>
+    <td>
+      <label>
+        <input type="radio" name="xb" value="1" id="xb_0" checked>
+        男生</label>
+      <img src="03/images/Male.gif" width="22" height="21" />
+      <label>
+        <input type="radio" name="xb" value="1" id="xb_1">
+        女生</label>
+      <img src="03/images/Female.gif" width="23" height="21" /><br>
+    </td>
+    </tr>
+  <tr>
+    <td height="32"><div align="right">头像：</div></td>
+    <td>&nbsp;</td>
+    <td><input type="file" name="fileField" id="fileField"></td>
+    </tr>
+  <tr>
+    <td height="30"><div align="right">爱好：</div></td>
+    <td>&nbsp;</td>
+    <td>
+      <label>
+        <input type="checkbox" name="ah" value="1" id="ah_0" checked>
+        运动</label>
+      <label>
+        <input type="checkbox" name="ah" value="1" id="ah_1" checked>
+        唱歌</label>
+      <label>
+        <input type="checkbox" name="ah" value="1" id="ah_2">
+        画画</label>
+      <label>
+        <input type="checkbox" name="ah" value="1" id="ah_3">
+        聊天</label>
+   </td>
+    </tr>
+  <tr>
+    <td height="30"><div align="right">生日：</div></td>
+    <td>&nbsp;</td>
+    <td><select name="select" size="1" id="select">
+    
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+     <option value="0" selected>选择月份</option>
+    </select>
+      月
+      <select name="select2" id="select2">
+        <option value="0">选择日期</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      日</td>
+    </tr>
+  <tr>
+    <td height="30"><div align="right"></div></td>
+    <td>&nbsp;</td>
+    <td><input name="imageField" type="image" id="imageField" formaction="03/3-1.html" formtarget="_blank" src="03/images/submit.gif">
+      <input type="image" name="imageField2" id="imageField2" src="03/images/reset.gif"></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+</form>
+<p>&nbsp;</p>
+</body>
+</html>
